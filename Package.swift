@@ -29,8 +29,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXEOAlipayInvoke",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXEOAlipayInvoke-1.0.0-beta+20230525122919.xcframework.zip",
-			checksum: "e7acaa284cf38bf6300454b4af002433fe7c4b03b84a64a063da6e6ff6b9f3b1"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXEOAlipayInvoke-1.0.0-beta+20230525135158.xcframework.zip",
+			checksum: "9e4c93792c7ca2f7a802f7555335b5722dfb726e9b0faef2bf17c770a650c418"
 		)
 	]
 )
