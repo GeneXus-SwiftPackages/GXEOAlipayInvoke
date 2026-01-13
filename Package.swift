@@ -10,11 +10,11 @@ let package = Package(
 			targets: ["GXEOAlipayInvokeWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "4.1.0-beta.19"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "4.1.0-beta.19"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXDataLayer.git", exact: "4.1.0-beta.19"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "4.1.0-beta.19"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "4.1.0-beta.19")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "4.1.0-beta.20"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "4.1.0-beta.20"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXDataLayer.git", exact: "4.1.0-beta.20"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "4.1.0-beta.20"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "4.1.0-beta.20")
 	],
 	targets: [
 		.target(name: "GXEOAlipayInvokeWrapper",
@@ -29,8 +29,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXEOAlipayInvoke",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXEOAlipayInvoke-4.1.0-beta.19.xcframework.zip",
-			checksum: "6d66ddfce3590b5f03c1553a01c086c1bf6488ac29549e5c57398d98a672226a"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXEOAlipayInvoke-4.1.0-beta.20.xcframework.zip",
+			checksum: "4c0592ce74154126671266dd948ec1335826c83c38ab846e8ed7c670af49d4ce"
 		)
 	]
 )
